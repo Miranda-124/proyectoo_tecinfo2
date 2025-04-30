@@ -1,0 +1,83 @@
+/* Fondo y fuentes generales */
+body {
+    background-color: #f2f9f8;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Marquesina */
+marquee {
+    background-color: #00695c;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #004d40;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #00796b;
+}
+
+/* Encabezado principal */
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    color: #004d40;
+    font-size: 36px;
+}
+
+header img {
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+/* Información del equipo */
+.informacion {
+    background-color: #e0f2f1;
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+/* Botón interactivo */
+button {
+    display: block;
+    margin: 40px auto;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: white;
+    background-color: #009688;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #00796b;
+}
